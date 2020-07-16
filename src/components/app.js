@@ -9,6 +9,8 @@ class App extends React.Component {
   }
 
   onSearchSubmit = async (term) => {
+    // arrow function used here to bind 'this' to App class
+
     // this function property is passed as a props to a component in order
     // to send data from children back to parent. "term" represents the data
     // being passed in when called from the child and represents the data
