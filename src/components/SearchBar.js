@@ -31,7 +31,7 @@ class SearchBar extends React.Component {
           </div>
         </form>
         <div role="listitem" className="item">
-          <div className="ui blue horizontal label">
+          <div className="ui violet horizontal label">
             <i className="power cord icon"></i>API Powered by: Unsplash
           </div>
         </div>
