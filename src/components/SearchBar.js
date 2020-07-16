@@ -8,7 +8,9 @@ class SearchBar extends React.Component {
 
   onFormSubmit = (e) => {
     e.preventDefault();
-
+    // 'this' keyword requires that we use an arrow function otherwise this
+    // is undefined. Arrow function allows it to point to instance of SearchBar
+    // instance
     console.log(this.state.term);
   };
 
