@@ -6,7 +6,9 @@ class App extends React.Component {
     super(props);
   }
 
-  onSearchSubmit(term) {}
+  onSearchSubmit(term) {
+    console.log(term);
+  }
 
   render() {
     return (
