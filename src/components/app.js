@@ -5,8 +5,8 @@ import SearchBar from "./SearchBar";
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { images: [] };
   }
-  state = { images: [] };
 
   async onSearchSubmit(term) {
     // this function property is passed as a props to a component in order
