@@ -25,7 +25,7 @@ class App extends React.Component {
       })
       .then((response) => {
         // callback/promise for data that is returned from API
-        console.log(response);
+        console.log(response.data.results);
       });
   }
 
