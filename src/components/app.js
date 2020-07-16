@@ -29,6 +29,23 @@ class App extends React.Component {
       });
   }
 
+  async onSearchSubmit(term) {
+    // this function property is passed as a props to a component in order
+    // to send data from children back to parent. "term" represents the data
+    // being passed in when called from the child and represents the data
+    // being communicated from child to parent.
+    console.log(term);
+    const response = await axios.get("https://api.unsplash.com/search/photos", {
+      params: {
+        query: term,
+      },
+      headers: {
+        Authorization: "Client-ID 3URMeY4GVY4fzD7bRp7GSTO9qyACuFzNosZC6N-MvWo",
+      },
+    });
+    console.log(response.data.results);
+  }
+
   render() {
     return (
       <div className="ui container" style={{ marginTop: "10px" }}>
