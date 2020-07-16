@@ -11,7 +11,7 @@ class SearchBar extends React.Component {
   }
 
   onInputClick() {
-    console.log(even.target);
+    console.log("Input was clicked");
   }
 
   render() {
