@@ -1,5 +1,5 @@
 import React from "react";
-import unsplash from "../src/api/unsplash"; // <- convention to put 3rd party libraries above components
+import unsplash from "../api/unsplash"; // <- convention to put 3rd party libraries above components
 import SearchBar from "./SearchBar";
 
 class App extends React.Component {
