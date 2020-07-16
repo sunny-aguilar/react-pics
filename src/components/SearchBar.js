@@ -8,7 +8,7 @@ class SearchBar extends React.Component {
   render() {
     return (
       <div>
-        <form>
+        <form className="ui form">
           <input type="text"></input>
         </form>
       </div>
