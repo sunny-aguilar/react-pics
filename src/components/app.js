@@ -13,14 +13,17 @@ class App extends React.Component {
     // being passed in when called from the child and represents the data
     // being communicated from child to parent.
     console.log(term);
-    axios.get("https://api.unsplash.com/search/photos", {
-      params: {
-        query: term,
-      },
-      headers: {
-        Authorization: "Client-ID 3URMeY4GVY4fzD7bRp7GSTO9qyACuFzNosZC6N-MvWo",
-      },
-    });
+    axios
+      .get("https://api.unsplash.com/search/photos", {
+        params: {
+          query: term,
+        },
+        headers: {
+          Authorization:
+            "Client-ID 3URMeY4GVY4fzD7bRp7GSTO9qyACuFzNosZC6N-MvWo",
+        },
+      })
+      .then();
   }
 
   render() {
