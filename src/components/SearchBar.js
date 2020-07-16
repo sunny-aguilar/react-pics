@@ -5,7 +5,10 @@ class SearchBar extends React.Component {
     super(props);
   }
 
-  onInputChange() {}
+  onInputChange(event) {
+    // same event property
+    console.log(event.target.value);
+  }
 
   render() {
     return (
