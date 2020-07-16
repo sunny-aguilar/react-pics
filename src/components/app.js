@@ -15,7 +15,7 @@ class App extends React.Component {
     // being passed in when called from the child and represents the data
     // being communicated from child to parent.
     console.log(term);
-    const response = await axios.get("/search/photos", {
+    const response = await unsplash.get("/search/photos", {
       params: {
         query: term,
       },
