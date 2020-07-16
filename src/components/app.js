@@ -7,28 +7,6 @@ class App extends React.Component {
     super(props);
   }
 
-  onSearchSubmit(term) {
-    // this function property is passed as a props to a component in order
-    // to send data from children back to parent. "term" represents the data
-    // being passed in when called from the child and represents the data
-    // being communicated from child to parent.
-    console.log(term);
-    axios
-      .get("https://api.unsplash.com/search/photos", {
-        params: {
-          query: term,
-        },
-        headers: {
-          Authorization:
-            "Client-ID 3URMeY4GVY4fzD7bRp7GSTO9qyACuFzNosZC6N-MvWo",
-        },
-      })
-      .then((response) => {
-        // callback/promise for data that is returned from API
-        console.log(response.data.results);
-      });
-  }
-
   async onSearchSubmit(term) {
     // this function property is passed as a props to a component in order
     // to send data from children back to parent. "term" represents the data
@@ -43,6 +21,8 @@ class App extends React.Component {
         Authorization: "Client-ID 3URMeY4GVY4fzD7bRp7GSTO9qyACuFzNosZC6N-MvWo",
       },
     });
+
+    // return async data
     console.log(response.data.results);
   }
 
