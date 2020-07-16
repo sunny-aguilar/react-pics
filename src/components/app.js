@@ -24,7 +24,7 @@ class App extends React.Component {
     });
 
     // return async data
-    this.setState({ images: term.data.results });
+    this.setState({ images: response.data.results });
   }
 
   render() {
