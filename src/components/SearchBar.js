@@ -10,6 +10,10 @@ class SearchBar extends React.Component {
     console.log(event.target.value);
   }
 
+  onInputClick() {
+    console.log(even.target);
+  }
+
   render() {
     return (
       <div className="ui segment">
