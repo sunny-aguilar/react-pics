@@ -7,7 +7,7 @@ class SearchBar extends React.Component {
   }
 
   onFormSubmit(e) {
-    e.preventDefalt();
+    e.preventDefault();
   }
 
   render() {
