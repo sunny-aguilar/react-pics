@@ -1,6 +1,7 @@
 import React from "react";
 import unsplash from "../api/unsplash"; // <- convention to put 3rd party libraries above components
 import SearchBar from "./SearchBar";
+import ImageList from "./ImageList";
 
 class App extends React.Component {
   constructor(props) {
