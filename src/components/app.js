@@ -16,9 +16,7 @@ class App extends React.Component {
     // being communicated from child to parent.
     console.log(term);
     const response = await unsplash.get("/search/photos", {
-      params: {
-        query: term,
-      },
+      params: { query: term },
     });
 
     // return async data
