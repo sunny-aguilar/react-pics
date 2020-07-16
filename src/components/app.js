@@ -19,9 +19,6 @@ class App extends React.Component {
       params: {
         query: term,
       },
-      headers: {
-        Authorization: "Client-ID 3URMeY4GVY4fzD7bRp7GSTO9qyACuFzNosZC6N-MvWo",
-      },
     });
 
     // return async data
