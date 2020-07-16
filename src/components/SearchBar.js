@@ -1,4 +1,5 @@
 import React from "react";
+import "";
 
 class SearchBar extends React.Component {
   constructor(props) {
@@ -30,7 +31,7 @@ class SearchBar extends React.Component {
           </div>
         </form>
         <div className="ui label">
-          <i className="mail icon">Powered by: Unsplash API</i>
+          <i className="power cord icon"> Powered by: Unsplash API</i>
         </div>
       </div>
     );
