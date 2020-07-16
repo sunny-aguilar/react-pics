@@ -5,6 +5,9 @@ class App extends React.Component {
   constructor(props) {
     super(props);
   }
+
+  onSearchSubmit(term) {}
+
   render() {
     return (
       <div className="ui container" style={{ marginTop: "10px" }}>
