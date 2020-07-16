@@ -1,5 +1,7 @@
 import axios from "axios";
-  // create a customizable instance for a particular URL
+// create a customizable instance for a particular URL and export
+// it back to App.js
+
 export default axios.create({
   baseURL: "https://api.unsplash.com",
   headers: {
