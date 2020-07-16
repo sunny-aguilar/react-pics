@@ -8,7 +8,7 @@ class App extends React.Component {
     this.state = { images: [] };
   }
 
-  async onSearchSubmit(term) {
+  onSearchSubmit = async (term) => {
     // this function property is passed as a props to a component in order
     // to send data from children back to parent. "term" represents the data
     // being passed in when called from the child and represents the data
@@ -25,7 +25,7 @@ class App extends React.Component {
 
     // return async data
     this.setState({ images: response.data.results });
-  }
+  };
 
   render() {
     return (
