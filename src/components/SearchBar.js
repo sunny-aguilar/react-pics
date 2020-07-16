@@ -6,7 +6,13 @@ class SearchBar extends React.Component {
   }
 
   render() {
-    return <div>Search Bar</div>
+    return (
+      <div>
+      <form>
+        <input type="text"></input>
+      </form>
+      </div>
+    );
   }
 }
 
