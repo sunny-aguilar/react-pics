@@ -23,7 +23,9 @@ class App extends React.Component {
             "Client-ID 3URMeY4GVY4fzD7bRp7GSTO9qyACuFzNosZC6N-MvWo",
         },
       })
-      .then();
+      .then(() => {
+        // callback/promise for data that is returned from API
+      });
   }
 
   render() {
