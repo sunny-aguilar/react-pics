@@ -22,7 +22,7 @@ class SearchBar extends React.Component {
             <label>Image Search</label>
             <input
               type="text"
-              onClick="{this.onInputClick}"
+              onClick={this.onInputClick}
               onChange={this.onInputChange}
             />
           </div>
