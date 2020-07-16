@@ -6,6 +6,10 @@ class SearchBar extends React.Component {
     this.state = { term: "" };
   }
 
+  onFormSubmit(e) {
+    e.preventDefalt();
+  }
+
   render() {
     return (
       <div className="ui segment">
