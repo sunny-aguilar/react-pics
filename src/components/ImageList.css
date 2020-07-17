@@ -2,6 +2,7 @@
 .image-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250, 1fr));
+  grid-gap: 10px;
 }
 
 .image-list img {
