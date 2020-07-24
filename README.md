@@ -1,3 +1,5 @@
+## Image Search App (- See live)[https://sunny-aguilar.github.io/react-pics/]
+
 This project allows a user to enter a search term in the input field and the Unsplash API service will return images (JSON) resembling the term entered. This project was created using the React library.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
